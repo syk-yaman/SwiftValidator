@@ -22,7 +22,7 @@ public class PhoneNumberRule: RegexRule {
     - parameter message: Error message that is displayed if validation fails.
     - returns: An initialized `PasswordRule` object, or nil if an object could not be created for some reason that would not result in an exception. 
     */
-    public convenience init(message : String = "Enter a valid 10 digit phone number") {
+    public convenience init(message : String = "يرجى إدخال رقم هاتف صحيح من ١٠ خانات") {
         self.init(regex: PhoneNumberRule.regex, message : message)
     }
     

@@ -24,7 +24,7 @@ public class ExactLengthRule : Rule {
      - parameter message: String of error message.
      - returns: An initialized `ExactLengthRule` object, or nil if an object could not be created for some reason. that would not result in an exception.
      */
-    public init(length: Int, message : String = "Must be exactly %ld characters long"){
+    public init(length: Int, message : String = "يجب أن يحوي الحقل على %ld محارف"){
         self.length = length
         self.message = String(format: message, self.length)
     }
