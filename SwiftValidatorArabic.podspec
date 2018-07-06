@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = "SwiftValidator"
+  s.name         = "SwiftValidatorArabic"
   s.version      = "5.1.0"
   s.summary      = "A UITextField Validation library for Swift"
   s.homepage     = "https://github.com/syk-yaman/SwiftValidator"
   s.screenshots  = "https://raw.githubusercontent.com/jpotts18/SwiftValidator/master/swift-validator-v2.gif"
   s.license      = { :type => "MIT", :file => "LICENSE.txt" }
-  s.author             = { "Jeff Potter" => "jeff.potter6@gmail.com" }
-  s.social_media_url   = "http://twitter.com/jpotts18"
+  s.author             = { "Yaman Kalaji" => "syk.yaman@gmail.com" }
+  s.social_media_url   = "http://twitter.com/yrkalaji"
   s.platform     = :ios
   s.ios.deployment_target	= '8.0'
   s.source       = { :git => "https://github.com/syk-yaman/SwiftValidator.git", :tag => "5.1.0" }
